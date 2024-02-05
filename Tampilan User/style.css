@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@1,500&display=swap');
+:root{
+   --main-color: #fbfbfa;
+   --bg-color: #fefefe;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.navbar{
+    display: flex;
+    padding: 8px 0;
+    justify-content: space-around;
+    background-color: var(--main-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+}
+
+.logo img{
+    width: 58%;
+}
+
+.navbar nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 40px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+}
+
+.button .btn{
+    padding: 12px 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+
+.button  .btn-register{
+    background-color: #FFBF9D;
+}
+/* Homw section */
+.hero{
+    margin: 12rem 5rem;
+}
+
+.hero-container{
+    font-size: 16px;
+}
+
+.hero-information{
+    display: flex;
+    align-items: center;
+    gap: 60rem;
+}
+
+.view {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hero-content{
+    width: 78%;
+}
+/* Search */
+.search{
+    margin: 4rem 5rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.search input, select{
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search .Button-filter{
+    width: 20%;
+    padding: 10px;
+    border: none;
+}
+
+
+
+
